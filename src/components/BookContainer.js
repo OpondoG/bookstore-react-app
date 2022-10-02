@@ -6,18 +6,18 @@ const BookContainer = () => {
   const books = [
     {
       id: 1,
-      title: 'I Love You to the Moon and Back',
-      author: 'Amelia Hepworth',
+      title:'I love everything about you',
+      author: 'Mamyta Wairimu',
     },
     {
       id: 2,
-      title: 'Our Class is a Family',
-      author: 'Shannon Olsen',
+      title: 'Our friendship is cool',
+      author: 'Mad Cobra',
     },
     {
       id: 3,
-      title: 'The Wonky Donkey',
-      author: 'Craig Smith',
+      title: 'Relationship issues come true',
+      author: 'Gilbert the Guy',
     },
 
   ];
