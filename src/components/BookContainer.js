@@ -6,7 +6,7 @@ const BookContainer = () => {
   const books = [
     {
       id: 1,
-      title:'I love everything about you',
+      title: 'I love everything about you',
       author: 'Mamyta Wairimu',
     },
     {
@@ -16,8 +16,8 @@ const BookContainer = () => {
     },
     {
       id: 3,
-      title: 'Relationship issues come true',
-      author: 'Gilbert the Guy',
+      title: 'Relationship issues ',
+      author: 'the Guy',
     },
 
   ];
