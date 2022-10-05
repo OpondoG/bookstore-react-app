@@ -16,8 +16,8 @@ const BookContainer = () => {
     },
     {
       id: 3,
-      title: 'Relationship issues come true',
-      author: 'Gilbert the Guy',
+      title: 'Relationship issues ',
+      author: 'the Guy',
     },
 
   ];
