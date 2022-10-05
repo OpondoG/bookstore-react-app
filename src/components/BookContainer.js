@@ -6,7 +6,7 @@ const BookContainer = () => {
   const books = [
     {
       id: 1,
-      title:'I love everything about you',
+      title: 'I love everything about you',
       author: 'Mamyta Wairimu',
     },
     {
