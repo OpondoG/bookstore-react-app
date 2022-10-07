@@ -1,10 +1,32 @@
+import { v4 as uuid } from 'uuid';
+
+// Actions
 export const ADD_BOOK = 'ADD_BOOK';
 export const REMOVE_BOOK = 'REMOVE_BOOK';
 
+// State
 const initialState = {
-  books: [],
+  books: [
+    {
+      id: uuid(),
+      title: 'Atomic Habits',
+      author: 'James Clear',
+    },
+    {
+      id: uuid(),
+      title: 'Rich Dad Poor Dad',
+      author: 'Robert K',
+    },
+    {
+      id: uuid(),
+      title: 'Think and Grow Rich',
+      author: 'Napoleon Hill',
+    },
+
+  ],
 };
 
+// create actions
 export const addBook = (book) => ({
   type: ADD_BOOK,
   payload: book,
